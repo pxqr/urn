@@ -1,5 +1,5 @@
 name:                urn
-version:             0.0.0.0
+version:             0.1.0.0
 license:             BSD3
 license-file:        LICENSE
 author:              Sam Truzjan
@@ -26,6 +26,12 @@ extra-source-files:    ChangeLog
 source-repository head
   type:                git
   location:            git://github.com/pxqr/urn.git
+
+source-repository this
+  type:                git
+  location:            git://github.com/pxqr/urn.git
+  branch:              master
+  tag:                 v0.1.0.0
 
 library
   hs-source-dirs:      src
