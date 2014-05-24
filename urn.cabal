@@ -14,8 +14,8 @@ synopsis:            Universal Resource Names
 homepage:            https://github.com/pxqr/urn
 bug-reports:         https://github.com/pxqr/urn/issues
 description:
-   URN parsing and rendering according to RFC4122. For more info see
-   <http://tools.ietf.org/html/rfc4122>.
+   URN parsing and rendering according to RFC 2141. For more info see
+   <http://tools.ietf.org/html/rfc2141>.
    .
    If you need to represent both URLs and URIs then use
    "Network.URI" from the @network@ package or "Data.URI" from the
